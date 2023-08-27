@@ -1,13 +1,13 @@
-package com.example.JPA;
+package com.example.REST_API;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpaApplication {
+public class RestApiLearningApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JpaApplication.class, args); 
-	} 
+		SpringApplication.run(RestApiLearningApplication.class, args);
+	}
 
 }
