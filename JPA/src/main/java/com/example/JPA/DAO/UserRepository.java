@@ -1,5 +1,11 @@
 package com.example.JPA.DAO;
 
-public interface UserRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.JPA.Entiry.User;
+
+@Repository
+public interface UserRepository extends CrudRepository<User, Integer> {
 
 }
